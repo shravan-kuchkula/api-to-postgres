@@ -1,9 +1,7 @@
-"""Extract data from an API and store it in a table.
+"""Extract database table and display the results.
 
-Makes a GET request to FrameIO's account API for the specified
-date range and parses the response to only keep actions related
-to comment and asset creation. Stores the results into a postgres
-database table contains unique user_ids and their actions.
+This is a validation script to verify that we got back
+the results and stored them into the database table.
 
 """
 import configparser

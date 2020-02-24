@@ -17,6 +17,9 @@ class DBConnection:
     insert_row()
         inserts a row specified by the query and its values.
 
+    fetch()
+        returns the results of select statments
+
     close()
         close the database connection
     """
