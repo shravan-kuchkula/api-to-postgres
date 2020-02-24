@@ -18,16 +18,16 @@ Store data from an API into a Postgres table
 
 ## How to run this project
 
-* Step 1: `git clone https://github.com/shravan-kuchkula/api-to-postgres.git`
-* Step 2: Create a database in postgres. Ex frameiodb
-* Step 3: Update `configs.cfg` file with database connection details and API access key
-* Step 4: `cd api-to-postgres`
-* Step 5: Run `virtualenv venv`
-* Step 6: Run `. venv/bin/activate`
-* Step 7: Run `pip install -r requirements.txt`
-* Step 8: Run `python etl.py`
-* Step 9: Run `python validation.py`
-
+* **Step 1**: `git clone https://github.com/shravan-kuchkula/api-to-postgres.git` OR unzip the zip file.
+* **Step 2**: Create a database in postgres. Ex `createdb -h localhost -p 5432 -U postgres frameiodb`
+* **Step 3**: `cd api-to-postgres`
+* **Step 4**: Update `configs.cfg` file with database connection details and API access key
+* **Step 5**: Run `pip install virtualenv`
+* **Step 6**: Run `virtualenv venv`
+* **Step 7**: Run `. venv/bin/activate`
+* **Step 8**: Run `pip install -r requirements.txt`
+* **Step 9**: Run `python etl.py`
+* **Step 10**: Run `python validation.py`
 
 ## validation Output
 ```bash
